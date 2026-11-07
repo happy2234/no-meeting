@@ -94,7 +94,7 @@ Tested on Fedora Linux with Switch Console 0.40.1 and Switch server 0.31.0.
 
 ### 2. Get the code and check the referee
 ```bash
-git clone https://github.com/<you>/no-meeting.git
+git clone https://github.com/happy2234/no-meeting.git
 cd no-meeting
 python3 -m unittest discover -s tests -v      # 10 tests pass
 python3 tools/tally.py examples/D-1.md --now 2026-11-07T17:00+05:30
